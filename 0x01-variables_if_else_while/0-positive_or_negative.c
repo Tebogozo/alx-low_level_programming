@@ -1,1 +1,2 @@
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -o program program.c
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o positive_or_negative
+./positive_or_negative
