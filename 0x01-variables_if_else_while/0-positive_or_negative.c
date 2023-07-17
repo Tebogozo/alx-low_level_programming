@@ -1,2 +1,28 @@
-#!/bin/bash
-gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o positive_or_negative
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+int main(void)
+{
+    srand(time(NULL));
+    int n = rand() % RAND_MAX;
+
+    std::cout << "The number " << n;
+
+    if (n > 0)
+    {
+        std::cout << " is positive";
+    }
+    else if (n == 0)
+    {
+        std::cout << " is zero";
+    }
+    else
+    {
+        std::cout << " is negative";
+    }
+
+    std::cout << std::endl;
+    return 0;
+}
+
