@@ -8,9 +8,10 @@
 */
 int main(void)
 {
-int n
-srand(time(NULL));
-int n = rand() - RAND_MAX/ 2;
+int n;
+
+srand(time(0));
+n = rand() - RAND_MAX/ 2;
 
 std::cout << "The number " << n;
 
