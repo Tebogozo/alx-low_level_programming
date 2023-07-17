@@ -13,19 +13,19 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX/ 2;
 
-printf("The number %d");
+printf("The number %d", n);
 
 if (n > 0)
 {
-printf("%d is positive");
+printf(" is positive");
 }
 else if (n == 0)
 {
-printf("%d is zero");
+printf(" is zero");
 }
 else
 {
-printf("%d is negative");
+printf(" is negative");
 }
 
 printf("\n");
