@@ -13,21 +13,21 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX/ 2;
 
-std::cout << "The number " << n;
+printf("The number ", n);
 
 if (n > 0)
 {
-std::cout << " is positive";
+printf(" is positive");
 }
 else if (n == 0)
 {
-std::cout << " is zero";
+printf(" is zero");
 }
 else
 {
-std::cout << " is negative";
+printf(" is negative");
 }
 
-std::cout << std::endl;
+printf("\n");
 return (0);
 }
