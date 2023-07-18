@@ -29,21 +29,26 @@ default:
 printf("Error: Invalid random number generated.\n");
 return 1;
 }
-printf("%d ", n);
-if (n == 0)
+
+if (n > 0)
+
 {
-printf("is zero");
+printf("%d is positive", n);
 }
-else if (n < 0)
+
+if (n < 0)
+
 {
-printf("is negative");
+printf("%d is negative", n);
 }
+
 else
+
 {
-printf("is positive");
+printf("%d is zero", n);
 }
 
 printf("\n");
 
-return 0;
+return (0);
 }
