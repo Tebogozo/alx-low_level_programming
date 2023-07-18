@@ -9,8 +9,10 @@
 int main(void)
 {
 int n;
+int randomNumber;
+
 srand(time(0));
-int randomNumber = rand() % 3;
+randomNumber = rand() % 3;
 
 switch (randomNumber)
 {
