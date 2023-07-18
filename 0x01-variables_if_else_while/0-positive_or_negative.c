@@ -9,29 +9,39 @@
 int main(void)
 {
 int n;
-
 srand(time(0));
-n = rand() % 201 - 100;
+int randomNumber = rand() % 3;
 
+switch (randomNumber)
+{
+ case 0:
+n = -98;
+break;
+case 1:
+n = 98;
+break;
+case 2:
+n = 0;
+break;
+default:
+printf("Error: Invalid random number generated.\n");
+return 1;
+}
+printf("%d ", n);
 if (n > 0)
-
 {
-printf("%d is positive", n);
+printf("is positive");
 }
-
-if (n < 0)
-
+else if (n < 0)
 {
-printf("%d is negative", n);
+printf("is negative");
 }
-
 else
-
 {
-printf("%d is zero", n);
+printf("is zero");
 }
 
 printf("\n");
 
-return (0);
+return 0;
 }
