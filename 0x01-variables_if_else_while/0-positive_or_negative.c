@@ -34,11 +34,11 @@ if (n == 0)
 {
 printf("is zero");
 }
-if (n < 0)
+else if (n < 0)
 {
 printf("is negative");
 }
-if (n > 0)
+else
 {
 printf("is positive");
 }
