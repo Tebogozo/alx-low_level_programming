@@ -30,17 +30,17 @@ printf("Error: Invalid random number generated.\n");
 return 1;
 }
 printf("%d ", n);
-if (n > 0)
+if (n == 0)
 {
-printf("is positive");
+printf("is zero");
 }
-else if (n < 0)
+if (n < 0)
 {
 printf("is negative");
 }
-else
+if (n > 0)
 {
-printf("is zero");
+printf("is positive");
 }
 
 printf("\n");
