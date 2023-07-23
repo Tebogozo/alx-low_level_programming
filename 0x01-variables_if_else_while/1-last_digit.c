@@ -24,7 +24,7 @@ void test_case_1(void) /* generate and return to main */
 {
 int numbers[] = {98, -98, 980};
 
-int randomIndex = rand() % 4;
+int randomIndex = rand() % 3;
 int n = numbers[randomIndex];
 int lastDigit = n % 10;
 
@@ -51,7 +51,7 @@ void test_case_2(void) /* generate and return to main */
 {
 int numbers[] = {98, -98, 980};
 
-int randomIndex = rand() % 4;
+int randomIndex = rand() % 3;
 int n = numbers[randomIndex];
 int lastDigit = n % 10;
 
@@ -78,7 +78,7 @@ void test_case_3(void) /* generate and return to main */
 {
 int numbers[] = {98, -98, 980};
 
-int randomIndex = rand() % 4;
+int randomIndex = rand() % 3;
 int n = numbers[randomIndex];
 int lastDigit = n % 10;
 
