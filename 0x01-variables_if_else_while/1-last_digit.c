@@ -19,7 +19,7 @@ test_case_1();
 
 return (0);
 }
-
+/* generate and return to main*/
 void test_case_1(void) /* generate and return to main*/
 {
 int numbers[] = {98, -98, 980};
@@ -46,7 +46,7 @@ printf(" and is less than 6 and not 0");
 printf("\n");
 
 }
-
+/* generate and return to main*/
 void test_case_2(void)/* generate and return to main*/
 {
 int numbers[] = {98, -98, 980};
@@ -73,7 +73,7 @@ printf(" and is less than 6 and not 0");
 printf("\n");
 
 }
-
+/* generate and return to main*/
 void test_case_3(void) /* generate and return to main*/
 {
 int numbers[] = {98, -98, 980};
