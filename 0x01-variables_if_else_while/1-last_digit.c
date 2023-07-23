@@ -20,7 +20,7 @@ return 0;
 
 void test_case_1(void)
 {
-int numbers[] = {629438752, -748255693, -1052791662, -284805734, -284805734, 491506926, 954249937, 652334952, -729688197, -729688197, 45528266, 45528266, 809065140};
+int numbers[] = {98, -98, 980};
 
 int randomIndex = rand() % 4;
 int n = numbers[randomIndex];
