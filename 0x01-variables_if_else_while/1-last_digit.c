@@ -20,10 +20,7 @@ test_case_1();
 return (0);
 }
 
-void test_case_1(void)
-/**
-*generate and return to main
-*/
+void test_case_1(void) /* generate and return to main*/
 {
 int numbers[] = {98, -98, 980};
 
@@ -50,10 +47,7 @@ printf("\n");
 
 }
 
-void test_case_2(void)
-/**
-* generate and return to main
-*/
+void test_case_2(void)/* generate and return to main*/
 {
 int numbers[] = {98, -98, 980};
 
@@ -80,10 +74,7 @@ printf("\n");
 
 }
 
-void test_case_3(void)
-/**
-* generate and return to main
-*/
+void test_case_3(void) /* generate and return to main*/
 {
 int numbers[] = {98, -98, 980};
 
